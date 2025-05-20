@@ -13,6 +13,18 @@ MCP-Framework gives you architecture out of the box, with automatic directory-ba
 - Easy-to-use base classes for tools, prompts, and resources
 - Out of the box authentication for SSE endpoints
 
+## Python Port
+
+This repository now includes a minimal Python implementation of the MCP CLI located in
+`mcp_py/cli.py`. You can invoke it using:
+
+```bash
+python -m mcp_py.cli <command>
+```
+
+The Python version mirrors the basic functionality of the Node.js CLI, providing commands
+for project creation, adding components and building.
+
 
 # [Read the full docs here](https://mcp-framework.com)
 
